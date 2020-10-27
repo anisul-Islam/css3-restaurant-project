@@ -254,6 +254,12 @@ footer p {
     border-radius: 50%;
     border: 1px solid white;
     margin: 10px;
+    transition: .4s;
+}
+
+.icon-style:hover{
+    background-color: grey;
+    transform: scale(1.2);
 }
 
 /* footer ends here  */
