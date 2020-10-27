@@ -48,8 +48,13 @@ header {
 }
 
 .logo {
-    width: 100px;
-    height: auto;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid white;
 }
 
 nav ul {
@@ -64,7 +69,8 @@ nav ul li a {
     display: block;
     text-decoration: none;
     color: white;
-    padding: 20px;
+    line-height: 70px;
+    padding: 0 20px;
     transition: .4s;
     text-transform: uppercase;
     font-weight: lighter;
