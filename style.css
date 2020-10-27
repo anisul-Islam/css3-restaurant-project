@@ -37,16 +37,12 @@ body {
     width: 100%;
 }
 
+/* header starts here  */
 header {
     background: #24a19c;
     padding: 0% 1%;
-}
-
-
-.logo-div {
     text-align: center;
 }
-
 .logo {
     width: 70px;
     height: 70px;
@@ -56,15 +52,9 @@ header {
     border-radius: 50%;
     border: 2px solid white;
 }
-
-nav ul {
-    text-align: center;
-}
-
 nav ul li {
     display: block;
 }
-
 nav ul li a {
     display: block;
     text-decoration: none;
@@ -95,6 +85,7 @@ nav ul li a:hover {
 .topnav.responsive a {
     display: block;
 }
+/* header ends here  */
 
 /* banner starts here  */
 #banner-section {
@@ -104,31 +95,25 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .banner-contents {
-    padding: 100px 10px;
+    padding: 50px 10px;
     text-align: center;
 }
-
 .banner-contents h1 {
     width: 100%;
-    margin: 0 auto;
+    margin: 15px auto;
     font-size: 3rem;
     background: rgba(255, 255, 0, 0.884);
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 30px;
     font-family: 'Handlee', cursive;
-
 }
-
 .banner-contents p {
     width: 300px;
-    margin: 0 auto;
+    margin: 15px auto;
     background: rgb(0, 128, 0);
     padding: 10px;
     font-size: 1.5rem;
-    margin-bottom: 30px;
     color: white;
 }
 .btn {
@@ -137,7 +122,8 @@ nav ul li a:hover {
     border: none;
     border-radius: 5px;
     font-size: 1.3rem;
-    background: yellow;
+    background: rgb(0, 128, 0);
+    color: white;
     text-transform: uppercase;
     transition: .4s;
 }
@@ -149,87 +135,72 @@ nav ul li a:hover {
 /* about-us starts here  */
 #about-us {
     padding: 1%;
-
 }
-
 .about-us-contents {
     text-align: center;
 }
-
 .about-us-contents h3 {
     font-size: 2rem;
     margin-bottom: 10px;
     font-weight: bolder;
-
 }
-
 .about-us-contents p {
     font-size: 0.8rem;
     margin-bottom: 10px;
 }
-
 /* about-us ends here  */
 
 /* menu-section starts here  */
 #menu-section {
     padding: 1%;
-
 }
-
 .card-body {
     text-align: center;
 }
-
 .card-body img {
     max-width: 100%;
     height: auto;
     display: block;
 }
-
 .item-desc {
     background: rgb(165, 164, 164);
 }
-
 .item-name {
     background: green;
     color: white;
     padding: 10px;
-
 }
-
 .item-desc>p {
     font-size: 0.8rem;
     padding: 10px;
     font-weight: bold;
 }
-
-
+.card{
+    transition: .4s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
 /* menu-section ends here  */
 
 /* contact section starts here  */
 #contact-section {
     padding: 1%;
     background: #595b83;
-
 }
-
 .contact-details {
     color: white;
     text-align: center;
     padding: 20px 0;
-
 }
-
 .map {
     width: 100%;
     height: 250px;
 }
-
 .contact-details p,
 address {
     font-size: 0.8rem;
 }
-
 /* contact section ends here  */
 
 /* footer starts here  */
@@ -239,13 +210,11 @@ footer {
     color: white;
     text-align: center;
 }
-
 footer p {
     font-size: 0.8rem;
     margin: 10px 0;
     line-height: 32px;
 }
-
 .icon-style {
     color: white;
     width: 32px;
@@ -256,7 +225,6 @@ footer p {
     margin: 10px;
     transition: .4s;
 }
-
 .icon-style:hover{
     background-color: grey;
     transform: scale(1.2);
@@ -435,6 +403,7 @@ footer p {
         width: 100%;
     }
 
+    /* header starts here  */
     .logo-div {
         text-align: left;
     }
@@ -451,43 +420,32 @@ footer p {
         display: inline-block;
 
     }
-
     nav ul li a:hover {
         border-radius: 0;
         background-color: transparent;
         transform: scale(1.2);
         text-decoration: underline;
     }
-
-
-
+    /* header ends here  */
+    
     /* banner starts here  */
     #banner-section {
        position: relative;
        height: 100vh;
     }
-
     .banner-contents {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);        
     }
-
     .banner-contents h1 {
         width: 700px;
         font-size: 3.5rem;      
     }
-
     .banner-contents p {
         width: 500px;
         font-size: 2rem;
     }
-
-    
-
-
     /* banner ends here */ 
-
-
 }
