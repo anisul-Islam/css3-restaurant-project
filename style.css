@@ -207,13 +207,15 @@ address {
 footer {
     background: #060930;
     padding: 1%;
-    color: white;
-    text-align: center;
+    color: white;   
 }
 footer p {
     font-size: 0.8rem;
-    margin: 10px 0;
     line-height: 32px;
+    text-align: center;
+}
+.social-menus{
+    text-align: center;
 }
 .icon-style {
     color: white;
@@ -222,8 +224,9 @@ footer p {
     line-height: 32px;
     border-radius: 50%;
     border: 1px solid white;
-    margin: 10px;
+    margin: 0 10px;
     transition: .4s;
+    text-align: center;
 }
 .icon-style:hover{
     background-color: grey;
@@ -448,4 +451,13 @@ footer p {
         font-size: 2rem;
     }
     /* banner ends here */ 
+
+    /* footer starts here  */         
+    footer p {
+        text-align: left;
+    }
+    .social-menus{
+        text-align: right;
+    }
+    /* footer ends here  */
 }
